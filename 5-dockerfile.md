@@ -53,14 +53,13 @@ docker build -t <nombre imagen>:<tag> .
 ### Ejecutar el archivo Dockerfile y construir una imagen en la versión 1.0
 No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
-
+docker build -t img:1.0 .
 ```
 
-**¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+**¿Cuántos pasos se han ejecutado?** 6 pasos
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+# COMPLETAR CON UNA CAPTURA /
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
